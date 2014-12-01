@@ -1,0 +1,131 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+ 
+.navbar{
+    color: #fff; /** colore della navbar **/ 
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+    }
+ 
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+}
+
+
+#intro {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background-color: #000;
+    color: #fff;
+    padding-top: 150px;
+    text-align: center;
+}
+ 
+
+ 
+.intro-section {
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+}
+
+h6 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 80px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*sistemazione font messaggio principale su schermi piccoli */
+@media(max-width:767px) {
+    h6 {
+        font-size: 42px;
+    }
+}
+
+.intro-overtext {
+    margin: 150px 0 5px 0;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+}
+ 
+.intro-subtext {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+h1 {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
+}
+ 
+.intro-subtext, .intro-subtext-section {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+}
+ 
+.intro-subtext-section {
+    color: #000;
+}
+#about {
+    background-color: #f2f2f2;
+    color: #121212;
+    font-family: 'Droid Sans', sans-serif;
+    height: 100%;
+    padding-top: 120px;
+    text-align: center;
+}
+
+#contact {
+    background: url("../img/pattern.jpg") repeat;
+    font-family: 'Droid Sans', sans-serif;
+    height: 120%;
+    padding-top: 150px;
+    text-align: center;
+    /** Qui sono inserite caratteristiche di base **/
+} 
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+ 
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+ 
+section#contact .form-group input.form-control {
+    height: auto;
+}
+ 
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+ 
+section#contact .text-danger {
+    color: #e74c3c;
+}
